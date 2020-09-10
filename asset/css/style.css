@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin:0 auto;
+
+}
+header{
+
+}
+.logo{
+    padding-top:23px;
+    float: left;
+}
+.menu{float: right;
+    padding-top:5px ;
+}
+.menu ul{list-style: none;
+    
+}.menu ul li{display:inline-block;
+    margin:25px ;
+    
+}.menu ul li a{
+    text-decoration:none;
+    color:#9f9f9f;
+}
+.banner{
+    width:100%;
+    float: left;
+    background-image: url(../../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0,.2);
+    background-blend-mode: overlay;
+    height: 570px;
+}
+.banner-contain{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+
+}
+.banner-contain h2{
+    font-size: 35px;
+    color: white;
+    
+    
+}
+.banner-contain p{
+    font-size: 20px;
+    margin:25px;
+    color: white;
+}
+.baanner-btn{
+    background-color: #99c50a;
+    color: white;
+    padding: 20px 35px;
+    font-size: 18px;
+    border-radius: 16px;
+}
+.roadmap{
+    width:100%;
+    float: left;
+}
+.rodmap-contain{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+}
+.rodmap-contain h2{
+    padding: 30px;
+    width: 81%;
+    margin: 0 auto;
+    font-weight:bold;
+    color: #515151;
+    font-size: 37px;
+
+}
+.rodmap-contain p{   
+    color: #a09b9b;
+    font-weight: 600;
+    
+    padding-bottom: 34px;
+}
+.invest{
+    width:100%;
+    float: left;
+    background:linear-gradient( 90deg, rgb(226, 248, 255) 50%, rgb(245, 249, 235) 50%);  
+
+ 
+}
+.invest-one{
+    width:50%;
+    float: left;
+    margin:0 auto;
+    margin-bottom:44px;
+}
+.invest h3{
+    text-align: center;
+    margin:15px;
+}
+.invest p{
+    width:50%;
+    margin:0 auto;
+
+
+}
+.invest img{
+    position: absolute;
+
+}
+
+
+.invest-two{
+    width:50%;
+    float: left;
+    margin:0 auto;
+}
+.invest-btn1{
+    margin-left: 25%;
+    margin-top: 4%;
+    padding: 9px;
+    background-color: #26a6d1;
+    color: white;
+    border-radius:5px ;
+}
+
+
+.invest-btn2{
+    margin-left: 25%;
+    margin-top: 4%;
+    padding: 9px;
+    background-color: #add136;
+    color: white;
+    margin-bottom: 40px;
+    
+}
+.feature{
+    width:100%;
+    float: left;
+    border-bottom: 1px solid rgb(193, 186, 186);
+
+}
+.feature-contain{
+    width:100%;
+    float: left;
+
+}
+.feature-contain h2{
+    margin:25px;
+    
+}
+.feature-contain p{
+    width:50%
+    
+}
+.feature-contain-btn {
+    float: right;
+    padding: 13px 17px;
+    border-radius: 5px;
+    margin-bottom: 43px;
+}
+.feature-img{
+    width:100%;
+    
+}
+
+.feature-one{
+    width:30%;
+    float: left;
+}
+.feature-two{
+    width:30%;
+    float:left;
+}
+.feature-three{
+    width:30%;
+    float: left;
+}
+.sponser{
+    width:100%;
+    float: left;
+    margin-top:6%;
+    margin-bottom:4%;
+}
+footer{
+    width: 100%;
+    float:left;
+
+    
+}
+footer p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 25px;
+}
+
